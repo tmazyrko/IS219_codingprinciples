@@ -2,7 +2,7 @@ const MathOperations = require('./Operations/MathOperations');
 const Calculation = require('./models/Calculation');
 
 class Calculator {
-    // Static methods can be called without instantiating and are good for actions
+    // Static methods can be called without instantiating, and are good for actions
     static Sum(a,b) {
         return new Calculation(a,b,"Sum");
     }
