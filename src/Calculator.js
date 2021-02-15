@@ -8,7 +8,7 @@ const Power = require('./operations/Power')
 const Root = require('./operations/Root')
 
 class Calculator {
-    static Calculations = []
+    static Calculations = [];
 
     // Static methods can be called without instantiating, and are good for actions
     static Sum(a,b) {
