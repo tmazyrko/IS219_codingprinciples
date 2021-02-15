@@ -1,4 +1,4 @@
-const MathOperations = require('./Operations/MathOperations');
+const MathOperations = require('./operations/MathOperations');
 const Calculation = require('./models/Calculation');
 
 class Calculator {
