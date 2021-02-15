@@ -1,9 +1,9 @@
 const Calculation = require('../src/models/Calculation');
 const Sum = require('../src/operations/Sum');
 const Difference = require('../src/operations/Difference');
-const Product = require('../src/operations/Sum');
-const Quotient = require('../src/operations/Difference');
-const Power = require('../src/operations/Product');
+const Product = require('../src/operations/Product');
+const Quotient = require('../src/operations/Quotient');
+const Power = require('../src/operations/Power');
 const Root = require('../src/operations/Quotient');
 
 test('Create Calculation object', () => {
