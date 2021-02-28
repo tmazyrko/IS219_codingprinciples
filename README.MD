@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/tmazyrko/IS219_calculator.svg?branch=master)](https://travis-ci.com/tmazyrko/IS219_calculator)
-[![Coverage Status](https://coveralls.io/repos/github/tmazyrko/IS219_calculator/badge.svg?branch=master)](https://coveralls.io/github/tmazyrko/IS219_calculator?branch=master)
+[![Build Status](https://travis-ci.com/tmazyrko/IS219_codingprinciples.svg?branch=master)](https://travis-ci.com/tmazyrko/IS219_codingprinciples)
+[![Coverage Status](https://coveralls.io/repos/github/tmazyrko/IS219_codingprinciples/badge.svg?branch=master)](https://coveralls.io/github/tmazyrko/IS219_codingprinciples?branch=master)
 
 
 **<h1 align="center"> OOP (Object-Oriented Programming) </h1>** 
