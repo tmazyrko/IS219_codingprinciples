@@ -107,3 +107,5 @@ The Bridge pattern solves this problem by extracting one of the dimensions (in t
 Template Method is a behavioral design pattern that defines the skeleton of an algorith in the superclass, but lets subclasses override specific steps of the algorithm without changing its structure. This pattern can be useful if you have several classes that have a lot of similar code, such as a data miner that can analyze documents of different formats (PDF, .doc, .csv, etc.). The Template Method pattern involves breaking an algorithm into a series of steps, turning those steps into methods, and putting a series of calls to those methods in a single "template method." The steps can either be abstract or have a default implementation, and to use the algorithm, the client is supposed to provide its own subclass, implement all abstract steps, and override any of the optional ones as needed. 
 
 <br>
+
+[Full catalog of design patterns](https://refactoring.guru/design-patterns/catalog)
