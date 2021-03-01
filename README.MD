@@ -94,7 +94,11 @@ Singleton is a creational design pattern that ensures a class has only one insta
 
 **<h2> Bridge (Structural) </h2>**
 
+Bridge is a structural design pattern that splits a large class or set of closely related classes into two seperate hierarchies: abstraction and implementation. These seperate hierarchies can then be developed independently.
 
+Here's a simple way to understand the problem this pattern solves: imagine you have a `Shape` class with two subclasses, `Circle` and `Square`. You plan to create `Black` and `White` shape subclasses to extend the class hierarchy to incorporate colors. Since there are already two subclasses (`Circle` and `Square`), you'll need to have four class combinations to cover each Shape and Color. Adding even more Shapes and Colors would grow the hierarchy exponentially. That's where the Bridge comes in.
+
+The Bridge pattern solves this problem by extracting one of the dimensions (in this case, Color) into a separate class hierarchy. This means we can extract any color-related code into its own `Color` class with two subclasses: `Black` and `White`. The `Shape` class then gets a reference field pointing to one of the color objects, and that reference will act as a bridge between the `Shape` and `Color` classes. Now, adding new colors won't require altering the shape hierarchy, and vice versa.
 
 <br>
 
