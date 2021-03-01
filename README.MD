@@ -74,3 +74,32 @@ Let's go back to our Calculator example for the Open-Closed Principle. Imagine e
 **<h2> [D] Dependency Inversion Principle </h2>**
 
 The Dependency Inversion Principle is also sometimes referred to as Dependency Injection or as Inversion of Controls, and is all about handing control over from the function itself to the caller of the function. We can apply this principle to our Calculator by examining how we pass operations to each new Calculation we create. Instead of passing in all possible math operations, we only pass the relevant operation through the constructor. Similarly, you could apply this principle to other programs by passing in only the functions you would use from an object, and not the entire object itself.
+
+<br>
+
+---
+
+**<h1 align="center"> Software Design Patterns </h1>** 
+
+
+Another important concept in software design is **design patterns**. These are typical solutions to commonly occuring problems - blueprints, in other words. There are three main types of design patters: creational patterns, structural patterns, and behavioral patterns. Creational patterns provide different ways of creating objects, increasing flexibility and reuse of existing code. Structural patters are used to assemble objects and classes into larger structures while keeping those structures flexible and efficient. Finally, behavioral patterns are those that are concerned with algorithms and the assignment of responsibilities between objects.
+
+Here's an example of each type of pattern.
+
+**<h2> Singleton (Creational) </h2>**
+
+Singleton is a creational design pattern that ensures a class has only one instance, whilst providing a global access point for that instance. All implementations of this pattern have two common features: the default constructor is private to prevent other objects from using the `new` operator with the Singleton class, and a static creation method acts as a constructor. The static creation method calls the private constructor to create an object and saves it in a static field. Any calls to this method that follow return the cached object.
+
+<br>
+
+**<h2> Bridge (Structural) </h2>**
+
+
+
+<br>
+
+**<h2> Template Method (Behavioral) </h2>**
+
+
+
+<br>
